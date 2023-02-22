@@ -1,9 +1,9 @@
 from setuptools import setup
 
-from utils(1) import __version__
+from utils import __version__
 
 setup(
-    name='utils(1).py',
+    name='utils.py',
     version=__version__,
 
     #url='https://github.com/MichaelKim0407/tutorial-pip-package',
