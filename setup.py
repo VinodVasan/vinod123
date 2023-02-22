@@ -1,9 +1,9 @@
 from setuptools import setup
 
-from utils import __version__
+from exautilp import __version__
 
 setup(
-    name='utils.py',
+    name='exautilp.py',
     version=__version__,
 
     #url='https://github.com/MichaelKim0407/tutorial-pip-package',
@@ -11,5 +11,5 @@ setup(
     author='Vinod Vasan',
     author_email='vinodvsn03@gmail.com',
 
-    py_modules=['utils'],
+    py_modules=['exautilp'],
 )
